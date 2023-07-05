@@ -8,12 +8,12 @@ const Footer = () => {
       links: [
         {
           value: "About us",
-          url: "https://taikai.network/about-us",
+          url: "https://layerx.xyz/about",
           external: true,
         },
         {
           value: "Careers",
-          url: "https://taikai.network/careers",
+          url: "https://layerx.xyz/about#open-positions",
           external: true,
         },
         {
