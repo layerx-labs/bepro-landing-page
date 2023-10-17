@@ -5,7 +5,7 @@ import { baseUrl } from "../config";
 const SiteHead = () => {
   const { publicRuntimeConfig } = getConfig();
   const title =
-    "Bepro Network - The task marketplace platform for open-source projects";
+    "Bepro Network - The task marketplace platform";
   const description =
     "Bepro Network is a task-based marketplace created to help organizations and builders thrive.";
   const thumbnail = "/bepro-default-opengraph.jpg";
