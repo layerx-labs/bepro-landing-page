@@ -22,7 +22,7 @@ const How = () => {
       setTab(0);
     }
 
-    if (asPath === '/#dev') {
+    if (asPath === '/#builders') {
       setTab(1);
     }
   }, [router.query, router.asPath]);
@@ -30,7 +30,7 @@ const How = () => {
   return (
     <>
       <div id="org" className="sr-only" />
-      <div id="dev" className="sr-only" />
+      <div id="builders" className="sr-only" />
       <Section subheading="Step by step" title="Decentralized development for everyone">
         <PillTabs
           buttons={tabs}
