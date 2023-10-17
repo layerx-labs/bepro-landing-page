@@ -1,6 +1,7 @@
 import Section from "@/ui/Section";
 import ProductShot from "@/ui/ProductShot";
 
+//TODO: removed from the main page. Requires adjustments (which have not yet been designed) that will be carried out in the future
 const CreateBounty = () => (
   <Section
     title="How to create a bounty"
