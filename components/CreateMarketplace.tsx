@@ -1,21 +1,21 @@
 import Section from "@/ui/Section";
 import ProductShot from "@/ui/ProductShot";
 
-const CreateNetwork = () => (
+const CreateMarketplace = () => (
   <Section
-    title="Create a custom bounty network"
+    title="Create your custom marketplace"
     subheading="For organizations"
     lightOn
   >
     <ProductShot
-      title="Custom Network"
+      title="Custom Marketplace"
       imgSrc="/product-shot--custom-network.svg"
-      imgAlt="Bepro Network - Custom network product shot"
+      imgAlt="Bepro Network - Custom marketplace product shot"
       invert
     >
       <p>
         Any Organization, DAO, Layer 1 or Layer 2 protocols is able to launch
-        their own bounty network using their own branding, token and community.
+        their own task marketplace using their own branding, token and community.
       </p>
     </ProductShot>
     <ProductShot
@@ -24,8 +24,8 @@ const CreateNetwork = () => (
       imgAlt="Bepro Network - Your own tokens product shot"
     >
       <p>
-        Create and manage bounties using your own token. Ability to use USDC or
-        any other ERC-20 as the payment currency for Bounties.
+        Create and manage tasks using your own token. Ability to use USDC or
+        any other ERC-20 as the payment currency.
       </p>
     </ProductShot>
     <ProductShot
@@ -36,10 +36,10 @@ const CreateNetwork = () => (
     >
       <p>
         Select your own curators or delegate it to the community to review and
-        create proposals for bounty distributions.
+        create proposals for the task reward distributions.
       </p>
     </ProductShot>
   </Section>
 );
 
-export default CreateNetwork;
+export default CreateMarketplace;

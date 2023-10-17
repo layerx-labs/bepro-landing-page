@@ -3,6 +3,7 @@ import PanelGrid from "@/ui/PanelGrid";
 import Panel from "@/ui/Panel";
 import { GitHub, WebApp, Protocol } from "@/utils/icons";
 
+//TODO: removed from the main page. Requires adjustments (which have not yet been designed) that will be carried out in the future
 const How = () => (
   <Section subheading="Framework" title="How it works" headerMargin="s">
     <p>

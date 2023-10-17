@@ -1,20 +1,19 @@
 import Section from "@/ui/Section";
 import ProductShot from "@/ui/ProductShot";
 
-const CreateNetwork = () => (
+const Participate = () => (
   <Section
-    title="Participate in bounties"
-    subheading="For developers and curators"
+    title="Participate in tasks"
+    subheading="For builders and curators"
     lightOn
   >
     <ProductShot
       title="Get recognized for your work"
       imgSrc="/product-shot--recognized.svg"
-      imgAlt="Bepro Network - Custom network product shot"
+      imgAlt="Bepro Network - Custom Marketplace product shot"
     >
       <p>
-        All the contributors on a bounty (developers and council members) will
-        receive a non-transferable NFT as a recognition of their work.
+        All the contributors on a task receive a non-transferable NFT as a recognition of their work.
       </p>
     </ProductShot>
     <ProductShot
@@ -26,16 +25,16 @@ const CreateNetwork = () => (
       <p>Discover new projects to contribute to and get paid for your work.</p>
     </ProductShot>
     <ProductShot
-      title="Curate the network"
+      title="Curate the Marketplace"
       imgSrc="/product-shot--curate.svg"
       imgAlt="Bepro Network - Delegate product shot"
     >
       <p>
-        Review proposals of bounty payment distributions and curate the Bepro
-        Network.
+        Review proposals of task payment distributions, curate the Bepro
+        Network and earn crypto.
       </p>
     </ProductShot>
   </Section>
 );
 
-export default CreateNetwork;
+export default Participate;

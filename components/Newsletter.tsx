@@ -50,7 +50,7 @@ const Newsletter = () => {
       <NewsletterSubscription
         subheading="News and updates"
         title="Subscribe to our newsletter"
-        description="Subscribe to stay tuned on the latest bounties, platform updates and ecosystem news."
+        description="Subscribe to stay tuned on the latest tasks, platform updates and ecosystem news."
       >
         <div>
           <input
