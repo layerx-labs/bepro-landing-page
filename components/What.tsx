@@ -5,18 +5,16 @@ import { rem } from "polished";
 const What = () => (
   <Section padding="xl">
     <ProductShot
-      subheading="Decentralized platform"
-      title="What is a bounty network?"
+      subheading="OnChain Task Marketplace"
+      title="What's a task marketplace?"
       imgSrc="/product-shot--what.svg"
       imgAlt="Bepro Network - Bounty product shot"
     >
       <p style={{ marginTop: rem("20px") }}>
-        Bepro is a Bounty Network platform created to help organizations manage
-        their decentralized development.
-      </p>
-      <p>
-        We simplified the process of launching multiple development bounties,
-        managing disputes and reward collaboration using tokens.
+        The marketplace is the space where organizations can launch
+        tasks and builders can work on them. Each task has its own set
+        of deliverables and respective prize. Tasks can range from development,
+        marketing, design, and more.
       </p>
     </ProductShot>
   </Section>
