@@ -19,18 +19,18 @@ const Intro = () => {
           <Icon icon="arrowForward" />
         </a>
       </Link>
-      <h1>Web3 bounty network for open-source development</h1>
+      <h1>Welcome to task-based work.</h1>
       <p>
-        Bepro Network is a bounty network created to help organizations manage
-        their decentralized development. We simplified the process of launching
-        multiple development bounties, managing disputes and reward
-        collaboration using smart contracts to handle payments.
+        Bepro Network is a task-based marketplace created to help organizations and builders
+        thrive. Organizations can easily create and launch tasks, while builders have the 
+        opportunity to work on them and earn crypto as payment, providing a more efficient 
+        and transparent collaboration.
       </p>
       <div>
         <ButtonLink
           color="blue500"
           url="https://app.bepro.network"
-          value="Launch your first bounty"
+          value="Launch your first task"
           icon="arrow-external"
           iconPosition="right"
           action={() => {
@@ -41,7 +41,7 @@ const Intro = () => {
           variant="outline"
           color="blue500"
           url="https://app.bepro.network"
-          value="Discover bounties"
+          value="Explore Tasks"
           icon="arrow-external"
           iconPosition="right"
           action={() => {
