@@ -6,7 +6,7 @@ const What = () => (
   <Section padding="xl">
     <ProductShot
       subheading="OnChain Task Marketplace"
-      title="What's a task marketplace?"
+      title="What's a Task Marketplace?"
       imgSrc="/product-shot--what.svg"
       imgAlt="Bepro Network - Bounty product shot"
     >

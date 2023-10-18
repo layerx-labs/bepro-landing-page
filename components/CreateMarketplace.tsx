@@ -14,7 +14,7 @@ const CreateMarketplace = () => (
       invert
     >
       <p>
-        Any Organization, DAO, Layer 1 or Layer 2 protocols is able to launch
+        Any Organization, DAO, Layer 1 or Layer 2 protocols are able to launch
         their own task marketplace using their own branding, token and community.
       </p>
     </ProductShot>

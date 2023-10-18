@@ -13,7 +13,7 @@ const Participate = () => (
       imgAlt="Bepro Network - Custom Marketplace product shot"
     >
       <p>
-        All the contributors on a task receive a non-transferable NFT as a recognition of their work.
+        All the contributors on a task receive a onchain non-transferable NFT (ERC-721) as a recognition of their work.
       </p>
     </ProductShot>
     <ProductShot
@@ -30,8 +30,7 @@ const Participate = () => (
       imgAlt="Bepro Network - Delegate product shot"
     >
       <p>
-        Review proposals of task payment distributions, curate the Bepro
-        Network and earn crypto.
+        Review Work and submit Proposals of task payment distributions, curate the Bepro Network and earn crypto.
       </p>
     </ProductShot>
   </Section>
