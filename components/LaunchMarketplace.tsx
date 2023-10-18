@@ -21,16 +21,6 @@ const LaunchMarketplace = () => {
         </p>
         <div>
           <ButtonLink
-            color="blue500"
-            url="https://app.bepro.network"
-            value="Start building now"
-            action={() => {
-              analytics.pushEvent('start_building_button');
-            }}
-            rounded
-            blank
-          />
-          <ButtonLink
             variant="outline"
             color="blue400"
             url="https://taikai.typeform.com/to/o31JUE8t"
