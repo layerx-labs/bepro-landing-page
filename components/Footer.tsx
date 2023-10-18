@@ -62,7 +62,7 @@ const Footer = () => {
           external: true,
         },
         {
-          value: "Bepro Network v1",
+          value: "Bepro v1",
           url: "https://development.bepro.network",
           external: true,
         },

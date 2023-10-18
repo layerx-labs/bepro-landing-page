@@ -21,7 +21,7 @@ const Intro = () => {
       </Link>
       <h1>Welcome to task-based work.</h1>
       <p>
-        Bepro Network is a task-based marketplace created to help organizations and builders
+        Bepro is a task-based marketplace created to help organizations and builders
         thrive. Organizations can easily create and launch tasks, while builders have the 
         opportunity to work on them and earn crypto as payment, providing a more efficient 
         and transparent collaboration.

@@ -39,7 +39,7 @@ const ForWhom = () => {
           }}
         >
           <p>
-            Create bounty distribution proposals and curate the Bepro Network.
+            Create bounty distribution proposals and curate the Bepro Marketplace.
           </p>
           <p>
             A curator is a protocol participant who submits a bounty

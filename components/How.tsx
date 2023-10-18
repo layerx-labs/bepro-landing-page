@@ -7,8 +7,7 @@ import { GitHub, WebApp, Protocol } from "@/utils/icons";
 const How = () => (
   <Section subheading="Framework" title="How it works" headerMargin="s">
     <p>
-      Bepro Network operates as a payment and curation layer for GitHub
-      repositories.
+      Bepro operates as a payment and curation layer for tasks.
     </p>
     <p>
       Our protocol interacts with GitHub in order to function and to manage pull

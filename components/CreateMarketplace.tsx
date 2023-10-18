@@ -10,7 +10,7 @@ const CreateMarketplace = () => (
     <ProductShot
       title="Custom Marketplace"
       imgSrc="/product-shot--custom-network.svg"
-      imgAlt="Bepro Network - Custom marketplace product shot"
+      imgAlt="Bepro - Custom marketplace product shot"
       invert
     >
       <p>
@@ -21,7 +21,7 @@ const CreateMarketplace = () => (
     <ProductShot
       title="Reward with your $token"
       imgSrc="/product-shot--tokens.svg"
-      imgAlt="Bepro Network - Your own tokens product shot"
+      imgAlt="Bepro - Your own tokens product shot"
     >
       <p>
         Create and manage tasks using your own token. Ability to use USDC or
@@ -31,7 +31,7 @@ const CreateMarketplace = () => (
     <ProductShot
       title="Power to the community"
       imgSrc="/product-shot--delegate.svg"
-      imgAlt="Bepro Network - Delegate product shot"
+      imgAlt="Bepro - Delegate product shot"
       invert
     >
       <p>
