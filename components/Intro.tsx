@@ -19,7 +19,7 @@ const Intro = () => {
           <Icon icon="arrowForward" />
         </a>
       </Link>
-      <h1>Welcome to <br/> task-based work.</h1>
+      <h1>Welcome to <br/> Task-based work.</h1>
       <p>
         Bepro is a task-based marketplace created to help organizations and builders
         thrive. Organizations can easily create and launch tasks, while builders have the 
