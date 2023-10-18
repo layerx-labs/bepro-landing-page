@@ -3,11 +3,11 @@ import PanelGrid from "@/ui/PanelGrid";
 import Panel from "@/ui/Panel";
 import { GitHub, WebApp, Protocol } from "@/utils/icons";
 
+//TODO: removed from the main page. Requires adjustments (which have not yet been designed) that will be carried out in the future
 const How = () => (
   <Section subheading="Framework" title="How it works" headerMargin="s">
     <p>
-      Bepro Network operates as a payment and curation layer for GitHub
-      repositories.
+      Bepro operates as a payment and curation layer for tasks.
     </p>
     <p>
       Our protocol interacts with GitHub in order to function and to manage pull

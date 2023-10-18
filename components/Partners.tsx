@@ -82,7 +82,7 @@ const Partners = () => {
   return (
     <CustomWrapper>
       <Section
-        title="Join over 100 corporate partners that organize their hackathons and bounties with our lab"
+        title="Join over 200 organizations that trust our platforms."
         subheading="Partners and clients"
         headerMargin="s"
         fullWidth

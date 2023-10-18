@@ -8,12 +8,12 @@ const menu = [
     external: false,
   },
   {
-    label: "Developers",
-    url: "#dev",
+    label: "Builders",
+    url: "#builders",
     external: false,
   },
   {
-    label: "Explore Bounties",
+    label: "Explore Tasks",
     url: "https://app.bepro.network",
     external: true,
   },

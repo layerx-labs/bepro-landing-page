@@ -21,7 +21,7 @@ const Community = () => {
           subheading="Community"
           title="Join our Discord server and access exclusive community channels"
           imgSrc="/product-shot--discord.svg"
-          imgAlt="Bepro Network - Discord"
+          imgAlt="Bepro - Discord"
         >
           <ButtonLink
             color="blue500"
