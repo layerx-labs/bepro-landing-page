@@ -47,7 +47,7 @@ const Footer = () => {
           external: true,
         },
         {
-          value: "I am a developer",
+          value: "I am a builder",
           url: "https://support.bepro.network/en/collections/3680434-developers",
           external: true,
         },
@@ -62,7 +62,7 @@ const Footer = () => {
           external: true,
         },
         {
-          value: "Bepro Network v1",
+          value: "Bepro v1",
           url: "https://development.bepro.network",
           external: true,
         },

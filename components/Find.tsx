@@ -11,20 +11,20 @@ interface FindProps {
 }
 
 const Find = ({ bounties }: FindProps) => {
-	const title = "Find a bounty to work on";
+	const title = "Find a task to work on";
 	const analytics = useAnalytics();
 
 	return (
 		<>
 			<BountiesCarrousel title={title} bounties={bounties} />
-			<Section title={title} subheading="Featured bounties">
+			<Section title={title} subheading="Featured Tasks">
 				<FeaturedBounties bounties={bounties} />
 				<ButtonLink
 					variant="outline"
 					color="blue500"
 					txtColor="white"
 					url="https://app.bepro.network"
-					value="See all bounties"
+					value="See all tasks"
 					action={() => {
 						analytics.pushEvent("see_all_bounties_button");
 					}}

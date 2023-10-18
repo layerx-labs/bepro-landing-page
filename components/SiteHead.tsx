@@ -5,16 +5,16 @@ import { baseUrl } from "../config";
 const SiteHead = () => {
   const { publicRuntimeConfig } = getConfig();
   const title =
-    "Bepro Network - The bounty network platform for open-source projects";
+    "Bepro - The task marketplace platform";
   const description =
-    "Bepro Network is a bounty network created to help organizations manage their decentralized development.";
+    "Bepro is a task-based marketplace created to help organizations and builders thrive.";
   const thumbnail = "/bepro-default-opengraph.jpg";
 
   return (
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="author" content="Bepro Network" />
+      <meta name="author" content="Bepro" />
       <meta
         name="robots"
         content={`${

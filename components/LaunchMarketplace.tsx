@@ -3,32 +3,23 @@ import Section from '@/ui/Section';
 import CustomNetwork from '@/ui/CustomNetwork';
 import { useAnalytics } from '@/utils/analytics';
 
-const LaunchNetwork = () => {
+const LaunchMarketplace = () => {
   const analytics = useAnalytics();
 
   return (
     <Section padding="s">
       <CustomNetwork
         title="Customization"
-        subheading="Launch your own bounty network"
+        subheading="Launch your own custom marketplace"
         imgSrc="product-shot--launch-network.svg"
-        imgAlt="Launch your own bounty network"
+        imgAlt="Launch your own custom marketplace"
       >
         <p>
-          Create bounties and have a Web3 developer community building the right solution for your
-          projects. Our team is here for you!
+          Incorporate your brand identity, pay with your own
+          token and have a fully-customizable task marketplace
+          for your organization. Contact us to learn more.
         </p>
         <div>
-          <ButtonLink
-            color="blue500"
-            url="https://app.bepro.network"
-            value="Start building now"
-            action={() => {
-              analytics.pushEvent('start_building_button');
-            }}
-            rounded
-            blank
-          />
           <ButtonLink
             variant="outline"
             color="blue400"
@@ -44,4 +35,4 @@ const LaunchNetwork = () => {
   );
 };
 
-export default LaunchNetwork;
+export default LaunchMarketplace;

@@ -3,15 +3,10 @@ import SiteHead from 'components/SiteHead';
 import Nav from 'components/Nav';
 import Intro from 'components/Intro';
 import What from 'components/What';
-import How from 'components/How';
 import Workflows from 'components/Workflows';
-import CreateBounty from 'components/CreateBounty';
-import CreateNetwork from 'components/CreateNetwork';
 import Participate from 'components/Participate';
 import Find from 'components/Find';
-import ForWhom from 'components/ForWhom';
 import Audited from 'components/Audited';
-import LaunchNetwork from 'components/LaunchNetwork';
 import Partners from 'components/Partners';
 import Community from 'components/Community';
 import Stories from 'components/Stories';
@@ -21,7 +16,9 @@ import { initializeApollo, APOLLO_STATE_PROP_NAME } from '../config/apolloClient
 import { useStories } from '../hooks/use-stories';
 import { STORIES_QUERY } from '../graphql/stories-list-query';
 import { getRequest } from 'lib/fetch-api';
-import { IBeproApi, State } from 'lib/types';
+import { IBeproApi } from 'lib/types';
+import CreateMarketplace from 'components/CreateMarketplace';
+import LaunchMarketplace from 'components/LaunchMarketplace';
 
 const Home: NextPage = ({ bounties }: any) => {
   const { loading, error, data } = useStories({ page: 0 });
@@ -32,15 +29,12 @@ const Home: NextPage = ({ bounties }: any) => {
       <Nav />
       <Intro />
       <What />
-      <How />
       <Workflows />
-      <CreateBounty />
-      <CreateNetwork />
+      <CreateMarketplace />
       <Participate />
       <Find bounties={bounties ?? []} />
-      <ForWhom />
       <Audited />
-      <LaunchNetwork />
+      <LaunchMarketplace />
       <Partners />
       <Community />
       <Stories data={data} loading={loading} error={error} />
