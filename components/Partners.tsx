@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { rem } from "polished";
-import Section from "@/ui/Section";
-import PartnersSlider from "@/ui/PartnersSlider";
+import styled from 'styled-components';
+import { rem } from 'polished';
+import Section from '@/ui/Section';
+import PartnersSlider from '@/ui/PartnersSlider';
 import {
   Harmony,
   ETHFoundation,
@@ -15,13 +15,13 @@ import {
   Holon,
   Filecoin,
   UcoNetwork,
-} from "@/utils/brands";
-import { colors } from "@/styles/variables";
+} from '@/utils/brands';
+import { colors } from '@/styles/variables';
 
 const CustomWrapper = styled.div`
   h2 {
     margin: 0 auto;
-    max-width: ${rem("900px")};
+    max-width: ${rem('900px')};
   }
 `;
 
@@ -31,58 +31,58 @@ const Partners = () => {
   const partners = [
     {
       logo: <ETHFoundation fill={logoFill} />,
-      name: "ETH Foundation",
+      name: 'ETH Foundation',
     },
     {
       logo: <CryptoCom fill={logoFill} />,
-      name: "Crypto.com",
+      name: 'Crypto.com',
     },
     {
       logo: <Aurora fill={logoFill} />,
-      name: "Aurora",
+      name: 'Aurora',
     },
     {
       logo: <Solana fill={logoFill} />,
-      name: "Solana",
+      name: 'Solana',
     },
     {
       logo: <Harmony fill={logoFill} />,
-      name: "Harmony",
+      name: 'Harmony',
     },
     {
       logo: <ProtocolLabs fill={logoFill} />,
-      name: "Protocol Labs",
+      name: 'Protocol Labs',
     },
     {
       logo: <Polkamarkets fill={logoFill} />,
-      name: "Polkamarkets",
+      name: 'Polkamarkets',
     },
     {
       logo: <Caduceus fill={logoFill} />,
-      name: "Caduceus",
+      name: 'Caduceus',
     },
     {
       logo: <RealFevr fill={logoFill} />,
-      name: "RealFevr",
+      name: 'RealFevr',
     },
     {
       logo: <Holon fill={logoFill} />,
-      name: "Holon",
+      name: 'Holon',
     },
     {
       logo: <Filecoin fill={logoFill} />,
-      name: "Filecoin",
+      name: 'Filecoin',
     },
     {
       logo: <UcoNetwork fill={logoFill} />,
-      name: "UCO Network",
+      name: 'UCO Network',
     },
   ];
 
   return (
     <CustomWrapper>
       <Section
-        title="Join over 200 organizations that trust our platforms."
+        title="Join over 200 organizations that trust our platforms"
         subheading="Partners and clients"
         headerMargin="s"
         fullWidth
