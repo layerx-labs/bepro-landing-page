@@ -1,25 +1,25 @@
-import { useState } from "react";
-import Navbar from "@/ui/NavBar";
+import { useState } from 'react';
+import Navbar from '@/ui/NavBar';
 
 const menu = [
   {
-    label: "Organizations",
-    url: "#org",
+    label: 'Organizations',
+    url: '#org',
     external: false,
   },
   {
-    label: "Builders",
-    url: "#builders",
+    label: 'Builders',
+    url: '#builders',
     external: false,
   },
   {
-    label: "Explore Tasks",
-    url: "https://app.bepro.network",
+    label: 'Explore tasks',
+    url: 'https://app.bepro.network',
     external: true,
   },
   {
-    label: "Blog",
-    url: "https://blog.bepro.network",
+    label: 'Blog',
+    url: 'https://blog.bepro.network',
     external: true,
   },
 ];
