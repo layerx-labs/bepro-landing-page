@@ -47,7 +47,7 @@ const Home: NextPage = ({ bounties }: any) => {
 export async function getServerSideProps() {
   const apolloClient = initializeApollo();
 
-  const { data } = await getRequest<IBeproApi>(`/search/issues`);
+  const { data } = await getRequest<IBeproApi>(`/search/tasks`).catch(_ => ({ data: null }));
 
   await apolloClient.query({
     query: STORIES_QUERY,
