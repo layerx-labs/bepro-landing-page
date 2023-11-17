@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "rm -rf .next && tsc --project tsconfig.server.json && node dist/index.js",
+		"dev": "tsc --project tsconfig.server.json && node dist/index.js",
 		"build": "next build && tsc --project tsconfig.server.json",
 		"start": "NODE_ENV=production node dist/index.js",
 		"lint": "next lint",
