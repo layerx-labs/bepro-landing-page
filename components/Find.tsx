@@ -3,7 +3,6 @@ import FeaturedBounties from '@/ui/FeaturedBounties';
 import { ButtonLink } from '@taikai/rocket-kit';
 import { BountiesCarrousel } from '@/utils/ldjson';
 import { useAnalytics } from '@/utils/analytics';
-import { getRequest } from 'lib/fetch-api';
 import { IBeproApi } from 'lib/types';
 
 interface FindProps {
