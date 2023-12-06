@@ -66,9 +66,7 @@ const How = () => {
                 <p>Explore and find the right tasks for you.</p>
               </Panel>
               <Panel color="blue" icon={<Build />} title="Start building">
-                <p>
-                  Go solo or collaborate with other builders and contribute to projects.
-                </p>
+                <p>Go solo or collaborate with other builders and contribute to projects.</p>
               </Panel>
               <Panel color="blue" icon={<GetPaid />} title="Get paid in crypto">
                 <p>Once your submission has been reviewed and accepted, you get paid in crypto.</p>
@@ -88,7 +86,7 @@ const How = () => {
           <div>
             <ButtonLink
               color="blue500"
-              url="https://taikai.typeform.com/to/J9x1po6T"
+              url="https://layerx.typeform.com/to/J9x1po6T"
               value="Apply now"
               action={() => {
                 analytics.pushEvent('grant_application_apply_button');
