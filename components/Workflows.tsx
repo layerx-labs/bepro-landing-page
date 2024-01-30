@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import getConfig from 'next/config';
 import Section from '@/ui/Section';
 import PanelGrid from '@/ui/PanelGrid';
 import Panel from '@/ui/Panel';
@@ -8,6 +9,8 @@ import { Bounty, Community, Reward, Find, Build, GetPaid } from '@/utils/icons';
 import GrantApplication from './design/GrantApplication';
 import { ButtonLink } from '@taikai/rocket-kit';
 import { useAnalytics } from '@/utils/analytics';
+
+const { publicRuntimeConfig } = getConfig();
 
 const How = () => {
   const router = useRouter();
@@ -86,7 +89,7 @@ const How = () => {
           <div>
             <ButtonLink
               color="blue500"
-              url="https://layerx.typeform.com/to/J9x1po6T"
+              url={publicRuntimeConfig.grantApplicationUrl}
               value="Apply now"
               action={() => {
                 analytics.pushEvent('grant_application_apply_button');
