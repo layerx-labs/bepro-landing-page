@@ -11,7 +11,7 @@ async function createContact(req: NextApiRequest, res: NextApiResponse) {
         'https://api.sendgrid.com/v3/marketing/contacts',
         {
           contacts: [
-            { email: `${req.body.email}`, custom_fields: { signup_source: 'bepro landing' } },
+            { email: `${req.body.email}`, custom_fields: { signup_source: 'bepro_landing' } },
           ],
           list_ids: [serverRuntimeConfig.sendgridListId],
         },
