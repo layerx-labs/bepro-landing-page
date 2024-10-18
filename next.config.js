@@ -17,6 +17,8 @@ const nextConfig = {
     buyToken: process.env.BUY_TOKEN || 'false',
     imageProxyKey: process.env.IMAGE_PROXY_KEY || '',
     imageProxySalt: process.env.IMAGE_PROXY_SALT || '',
+    grantApplicationUrl: process.env.GRANT_APPLICATION_URL || 'https://tally.so/r/wvY9yD',
+    demoRequestUrl: process.env.DEMO_REQUEST_URL || 'https://tally.so/r/mK1jyg',
   },
   serverRuntimeConfig: {
     sendgridApiKey: process.env.SENDGRID_API_KEY || '',

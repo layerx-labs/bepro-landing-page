@@ -1,7 +1,10 @@
+import getConfig from 'next/config';
 import { ButtonLink } from '@taikai/rocket-kit';
 import Section from '@/ui/Section';
 import CustomNetwork from '@/ui/CustomNetwork';
 import { useAnalytics } from '@/utils/analytics';
+
+const { publicRuntimeConfig } = getConfig();
 
 const LaunchMarketplace = () => {
   const analytics = useAnalytics();
@@ -22,7 +25,7 @@ const LaunchMarketplace = () => {
           <ButtonLink
             variant="outline"
             color="blue400"
-            url="https://layerx.typeform.com/to/o31JUE8t"
+            url={publicRuntimeConfig.demoRequestUrl}
             value="Talk with us for a demo"
             action={() => analytics.pushEvent('demo_button')}
             rounded
